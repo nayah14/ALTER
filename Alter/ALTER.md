@@ -32,7 +32,7 @@ Perintah `ALTER TABLE mobil_rental ADD batas_peminjaman varchar(10) AFTER peminj
 ```
 
 ### Hasil
-![[Screenshot48.png]]
+![](Screenshot48.png)
 
 # Mengubah Nama kolom
 ## Struktur Query
@@ -45,7 +45,7 @@ alter table nama_tabel change nama_kolom nama_kolom_baru tipe_datanya;
 ```
 
 ## Hasil
-![[Screenshot49.png]]
+![](Screenshot49.png)
 ## Analisis
 - `ALTER TABLE mobil_rental`: Ini adalah perintah utama yang menyatakan bahwa Anda ingin mengubah struktur tabel bernama `mobil_rental`.
 - `CHANGE batas_peminjaman deadline varchar(10)`: Ini adalah bagian yang sebenarnya dari perintah yang menentukan perubahan yang ingin Anda lakukan. Dalam hal ini:
@@ -66,7 +66,7 @@ alter table mobil_rental modify deadline DATE;
 ```
 
 ## Hasil
-![[Screenshot50.png]]
+![](Screenshot50.png)
 ## Analisis
 - `ALTER TABLE mobil_rental`: Ini adalah perintah utama yang menyatakan bahwa Anda ingin mengubah struktur tabel bernama `mobil_rental`.
 - `MODIFY deadline DATE`: Ini adalah bagian yang menentukan perubahan yang ingin Anda lakukan. Dalam hal ini:
@@ -88,7 +88,7 @@ ALTER TABLE mobil_rental
 ```
 
 ## Hasil
-![[Screenshot51.png]]
+![](Screenshot51.png)
 ## Analisis
 - `ALTER TABLE mobil_rental`: Ini adalah perintah utama yang menyatakan bahwa Anda ingin mengubah struktur tabel bernama `mobil_rental`.
 - `ALTER deadline SET DEFAULT 'Ready'`: Ini adalah bagian yang menentukan perubahan yang ingin Anda lakukan pada kolom `deadline`. Dalam hal ini:
@@ -106,7 +106,7 @@ insert into mobil_rental
     -> values (7,"DD 2442 CY","ATSY66","Hijau","Nay",NULL,'300000');
 ```
 ### Hasil
-![[Screenshot52.png]]
+![](Screenshot52.png)
 # Menghapus kolom
 LINK WEB file:///C:/Users/ASUS/Downloads/SELECT%20LANJUTAN-1.pdf
 ## Struktur Query
@@ -124,8 +124,8 @@ ALTER deadline DROP DEFAULT;
 ALTER TABLE mobil_rental DROP COLUMN deadline;
 ```
 ## Hasil
-![[Screenshot53.png]]
-![[Screenshot54.png]]
+![](Screenshot53.png)
+![](Screenshot54.png)
 ## Analisis
 - `ALTER TABLE mobil_rental`: Ini adalah perintah utama yang menyatakan bahwa Anda ingin mengubah struktur tabel bernama `mobil_rental`.
 - `ALTER deadline DROP DEFAULT`: Ini adalah bagian yang menentukan perubahan yang ingin Anda lakukan pada kolom `deadline`. Dalam hal ini:
@@ -149,7 +149,7 @@ alter table mobi_rental rename to daftar_mobil;
 ```
 
 ## Hasil
-![[Screenshot55.png]]
+![](Screenshot55.png)
 ## Analisis
 - `ALTER TABLE mobil_rental`: Ini adalah perintah utama yang menyatakan bahwa Anda ingin mengubah struktur tabel dengan nama `mobil_rental`.
 - `RENAME TO daftar_mobil`: Ini adalah bagian yang menentukan perubahan yang ingin Anda lakukan pada nama tabel. Dalam hal ini:
