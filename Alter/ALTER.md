@@ -12,7 +12,7 @@ alter table nama_tabel add nama_kolom varchar(10) after nama_kolom;
 ```
 
 ## Hasil
-![[Screenshot47.png]]
+![].(img/Screenshot47.png)
 ## Analisis
 - `ALTER TABLE mobil_rental`: Ini adalah perintah utama yang menyatakan bahwa Anda ingin mengubah struktur tabel bernama `mobil_rental`.
 - `ADD batas_peminjaman varchar(10)`: Ini menunjukkan bahwa Anda ingin menambahkan kolom baru ke tabel. Kolom baru ini bernama `batas_peminjaman` dan memiliki tipe data `varchar(10)`, yang berarti kolom tersebut akan berisi teks dengan panjang maksimum 10 karakter.
