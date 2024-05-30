@@ -1,6 +1,6 @@
 LINK WEB  https://www.techonthenet.com/mysql/tables/alter_table.php
 SEBELUM DIUBAH
-![[Screenshot46 1.png]]
+![](img/Screenshot461.png)
 # Menambahkan Kolom
 ## Struktur Query 
 ```MYSQL
